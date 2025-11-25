@@ -1,4 +1,37 @@
-* {
+/* Add this to styles.css */
+.participants-list {
+  margin-top: 8px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.participants-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+.delete-icon {
+  cursor: pointer;
+  color: #c00;
+  margin-left: 8px;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #f00;
+}
+
+.participant-item {
+  padding: 4px 0;
+  color: #3949ab;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
